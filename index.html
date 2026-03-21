@@ -213,14 +213,13 @@
                 believe in waking up each day eager to make a difference through data-driven insights!
               </p>
               <div class="about-me-socials">
-                <a href="www.linkedin.com/in/" aria-label="LinkedIn"><i
-                    class="ph ph-linkedin-logo"></i></a>
+                <a href="www.linkedin.com/in/" aria-label="LinkedIn"><i class="ph ph-linkedin-logo"></i></a>
                 <a href="https://x.com/" aria-label="Twitter"><i class="ph ph-x-logo"></i></a>
               </div>
             </div>
             <div class="about-me-image" data-aos="fade-left">
               <img src="./assets/images/./profile.png" loading="lazy" />
-              <span class="caption">DATA</span>
+              <span class="caption">DATA ANALYST</span>
             </div>
           </div>
           <div class="call-to-action-section" data-aos="zoom-in">
@@ -619,20 +618,25 @@
               <h4>MySQL Optimization Tips</h4>
               <ul>
                 <li><strong>Use Indexes:</strong> Add indexes to frequently queried columns to speed up searches, e.g.,
-                  <code>CREATE INDEX idx_name ON users(name);</code>.</li>
+                  <code>CREATE INDEX idx_name ON users(name);</code>.
+                </li>
                 <li><strong>Avoid SELECT *:</strong> Specify only the columns you need, e.g.,
-                  <code>SELECT name, email FROM users;</code>.</li>
+                  <code>SELECT name, email FROM users;</code>.
+                </li>
                 <li><strong>Analyze Queries:</strong> Use <code>EXPLAIN</code> to understand query execution plans and
                   identify bottlenecks.</li>
               </ul>
               <h4>MongoDB Optimization Tips</h4>
               <ul>
                 <li><strong>Use Indexes:</strong> Create indexes on fields used in queries, e.g.,
-                  <code>db.users.createIndex({ email: 1 });</code>.</li>
+                  <code>db.users.createIndex({ email: 1 });</code>.
+                </li>
                 <li><strong>Limit Fields:</strong> Use projection to return only necessary fields, e.g.,
-                  <code>db.users.find({}, { name: 1, email: 1 });</code>.</li>
+                  <code>db.users.find({}, { name: 1, email: 1 });</code>.
+                </li>
                 <li><strong>Aggregate Efficiently:</strong> Optimize aggregation pipelines by filtering early with
-                  <code>$match</code>.</li>
+                  <code>$match</code>.
+                </li>
               </ul>
               <p>
                 By applying these techniques, you can significantly improve your application’s performance, ensuring a
