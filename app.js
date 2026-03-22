@@ -20,9 +20,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // Typing Animation
 const texts = [
-  "Data Analyst",
-  "Business Analytics",
-  "SQL & Power BI",
+  "Mechanical Engineer",
+  "Prototype Design",
+  "HVAC Analysis",
 ];
 const typingSpeed = 150;
 const resetDelay = 2000;
