@@ -272,26 +272,6 @@ button {
   transition: var(--transition);
 }
 
-.hero-main-details {
-  align-items: center;
-  display: flex;
-  gap: var(--spacing-lg);
-  max-width: 600px;
-}
-
-.hero-main-detail {
-  align-items: center;
-  display: flex;
-  gap: var(--spacing-md);
-}
-
-.hero-main-detail span {
-  border-right: 2px solid var(--bg);
-  color: var(--bg);
-  font-size: 4rem;
-  font-weight: bold;
-  padding-right: var(--spacing-md);
-}
 
 .hero-right {
   display: flex;
@@ -367,8 +347,8 @@ button {
 
 /* Skill Cards */
 .languages-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  flex-wrap: wrap;
   width: 90%;
   gap: 1.5rem;
   margin: var(--spacing-xl) auto;
@@ -377,6 +357,7 @@ button {
 
 .language-card {
   background: #fff;
+  min-width: 250px;
   border-radius: 12px;
   display: flex;
   flex-direction: row;
